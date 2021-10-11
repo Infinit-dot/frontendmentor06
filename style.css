@@ -100,7 +100,7 @@ img {
 }
 .card__status {
   color: var(--soft-pink);
-  margin-bottom: 2em;
+  margin-bottom: 1.8em;
 }
 .card__message {
   color: var(--light-magenta-100);
@@ -136,7 +136,7 @@ footer {
     grid-template-areas:
       "about rating "
       "reviews reviews";
-    gap: 6em 5em;
+    gap: 5em 5em;
   }
   .about {
     grid-area: about;
@@ -145,7 +145,7 @@ footer {
   .about__title {
     min-width: 11em;
     text-align: left;
-    font-size: 4.4rem;
+    font-size: 4.8rem;
     margin: 3em 0 0.5em;
   }
   .about__text {
@@ -184,13 +184,12 @@ footer {
   .reviews {
     display: flex;
     justify-content: space-between;
-    min-height: 320px;
+    min-height: 310px;
     margin: 0;
-    gap: 1.8em;
     grid-area: reviews;
   }
   .card {
-    width: 31%;
+    width: 32%;
     margin-bottom: 0;
   }
   .card:first-of-type {
